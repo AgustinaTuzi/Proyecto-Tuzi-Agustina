@@ -29,6 +29,9 @@ h2 {
 form p {
     color: burlywood;
 }
+.formulario {
+    color: black;
+}
 
 body { 
     background-color: bisque;
@@ -394,4 +397,64 @@ footer {
         height: 850px;
         margin-left: 2em;
     }
+} 
+
+.modesto{
+    width: 250px;
+    height: 250px;
+}
+.modesto:hover{
+    animation: cafe 4s;
+}
+@keyframes cafe{
+    0%{
+        transform: translateX(200px);
+    }
+    25%{
+        transform: scale(2);
+    }
+    50%{
+        border-radius: 10px;
+    }
+    75%{
+        transform: translateY(100px);
+    }
+}
+.circle1, .circle2, .circle3, .circle4, .circle5{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    color: black;
+}
+.circle1 {
+    background-color: blanchedalmond;
+    transition: all 3s ease;
+}
+.circle2{
+    background-color: bisque;
+    transition: all 3s ease-out;
+}
+.circle3{
+    background-color: burlywood;
+    transition: all 3s ease-in;
+}
+.circle4{
+    background-color: antiquewhite;
+    transition: all 3s ease-in-out;
+}
+.circle5{
+    background-color: coral;
+    transition: all 3s step-end;
+}
+.container-circle:hover .circle1,
+.container-circle:hover .circle2,
+.container-circle:hover .circle3,
+.container-circle:hover .circle4,
+.container-circle:hover .circle5{
+    transform: translateX(300px);
+}
+.carousel-item {
+    width: 550px;
+    height: 550px;
 }
