@@ -94,6 +94,11 @@ p {
     padding: 10px;
     margin: 20px;
 }
+.parrafo-footer {
+    background-color: burlywood;
+    color: black;
+    font-size: larger;
+}
 .parrafito {
     color: black;
     background-color: bisque;
@@ -318,8 +323,9 @@ footer {
         height: 300px;
     }
     .imagenprincipal {
-        width: 1350px;
-        height: 850px;
+        width: 600px;
+        height: 550px;
+        margin-left: 3em;
     }
     footer {
         margin-top: 0;
