@@ -17,6 +17,9 @@ h1 {
     font-size: 60px;
     font-weight: lighter;
 }
+strong {
+    font-weight: lighter;
+}
 
 h2 {
     
