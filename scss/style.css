@@ -322,7 +322,7 @@ footer {
 
 .grids {
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bolder;
   display: flex;
   flex-direction: column;
@@ -484,6 +484,7 @@ footer {
 }
 
 .modesto:hover {
+  -webkit-animation: cafe 4s;
   animation: cafe 4s;
 }
 
@@ -498,6 +499,24 @@ footer {
   height: 35%;
   border: white;
   display: inline-block;
+}
+
+@-webkit-keyframes cafe {
+  0% {
+    transform: translateX(12.5rem);
+  }
+
+  25% {
+    transform: scale(2);
+  }
+
+  50% {
+    border-radius: 0.6rem;
+  }
+
+  75% {
+    transform: translateY(6rem);
+  }
 }
 
 @keyframes cafe {
@@ -597,3 +616,5 @@ footer {
   font-style: italic;
   font-size: large;
 }
+
+/*# sourceMappingURL=style.css.map */
